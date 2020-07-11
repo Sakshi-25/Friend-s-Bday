@@ -21,11 +21,9 @@ let countDown = new Date('July 12, 2020 00:00:00').getTime(),
 
     if (distance < 0) {
       clearInterval(x);
-      ("IT'S YOUR BIRTHDAY!");
       var img = document.createElement('img');
       img.src = 'party.gif';
       var src = document.getElementById('x');
       src.appendChild(img);
-      distance = 0;
     }
   }, second);
