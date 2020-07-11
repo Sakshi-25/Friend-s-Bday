@@ -21,21 +21,9 @@ li span {
   font-size: 4.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* general styling */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -44,19 +32,12 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffd54f;
+  background-color: #f4a1ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    Roboto, 
-    Oxygen-Sans, 
-    Ubuntu, 
-    Cantarell, 
-    "Helvetica Neue", 
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
 .container {
