@@ -27,5 +27,3 @@ let countDown = new Date('July 12, 2020 00:00:00').getTime(),
       src.appendChild(img);
     }
   }, second);
-
-
